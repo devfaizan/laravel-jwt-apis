@@ -4,6 +4,6 @@
 
 ## apis with jwt for mobile app tested in postman 
 
-token is generated when user request to register and is signed using secret key
+token is generated when user request to register and is signed using secret key then on login it is returned to mimic sessions management. token expires after 3600 seconds
 
 more on https://jwt-auth.readthedocs.io/en/develop/
